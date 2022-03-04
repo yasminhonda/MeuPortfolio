@@ -1,0 +1,237 @@
+@media screen and (max-width:1300px){
+    .grid-container{
+        margin-left: 5rem;
+    }
+
+    /*SOBRE*/
+    .containerSobre{
+        flex-direction: column-reverse;
+    }
+    .containerSobre div p{
+        padding-top: 4rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .intro-nome p{
+        font-size: 18rem;
+    }
+}
+
+@media screen and (max-width:1181px){
+    .intro-nome p{
+        font-size: 16rem;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .resumo h3{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .resumo p{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width:1023px){
+    .intro-nome{
+        flex-direction: column;
+        margin-top: 20rem;
+        justify-content: flex-end;
+        padding-bottom: 5rem;
+        margin-right: 10%;
+    }
+    .intro-nome p{
+        font-size: 11rem;
+    }
+    .grid-container{
+        margin-left: 10%;
+    }
+    .grid-item{
+        font-size: 3.8rem;
+    }
+
+     /*SOBRE*/
+    .containerSobre div p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .slide{
+        flex-direction: column;
+    }
+    .slide .img{
+        width: 100%;
+     }
+    .resumo{
+        margin: 0.6rem 0rem;
+        width: 100%;
+    }
+    .slide .button{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        border-radius: 1rem;
+        margin-bottom: 0.6rem;
+        text-align: center;
+        padding: 0.8rem;
+        font-size: 1.8rem;
+        background: rgba(255, 255, 255, 0.048);
+        backdrop-filter: none;
+    }
+    .slide .buttonGitHub{
+        font-size: 3rem;
+    }
+    .button:hover{  
+        font-weight: bold;
+        background: var(--cinza-claro);
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:848px){
+    footer {
+        padding: 5rem;
+    }
+    footer a i{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:700px){
+    /* MENU */
+    header nav{
+        height: 100vh;
+        display: flex;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    header ul{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header ul li{
+        font-size: 2.5rem;
+        margin-top: 0.8rem;
+    }
+    header{
+        display: none;
+    }
+    .close-menu-label::after{
+        content: '≡';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2.5rem;
+        font-size: 3rem;
+        background: rgba(97, 97, 97, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        line-height: 4rem;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        padding: 0.4rem;
+        cursor: pointer;
+    }
+    .close-menu:checked~header{
+        display: block;
+    }
+    .close-menu:checked~.close-menu-label::after{
+        content: '×';
+        z-index: 3;
+    }
+
+    /* SOBRE */
+    .containerSobre{
+        padding: 6rem;
+    }
+    .imgPerfil{
+        width: 100%;
+    }
+    .grid-container{
+        margin-top: 6rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3rem 5rem 1.5rem;
+    }
+    footer a{
+        padding-bottom: 1.5rem;
+    }
+
+    /*PROJETO*/
+    .slide .button{
+        font-size: 1.5rem;
+    }
+    .slide .buttonGitHub{
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .intro-nome{
+        margin-top: 10rem;
+    }
+    .intro-nome p{
+        font-size: 8rem;
+    }
+    .grid-container{
+        margin-top: 5rem;
+    }
+    .grid-item{
+        font-size: 2.5rem;
+    }
+
+    /*SOBRE*/
+    .containerSobre div p{
+        font-size: 1.2rem;
+    }
+    .imgPerfil{
+        width: 85%;
+        padding-left: 5rem;
+    }
+    
+
+    .slide .buttonGitHub{
+        font-size: 1.8rem;
+        padding: 0.3;
+    }
+}
+
+@media screen and (max-width:380px){
+    .intro-nome p{
+        font-size: 7rem;
+    }
+    .grid-item{
+        font-size: 2.5rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    /*SOBRE*/
+    .containerSobre{
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro-nome p{
+        font-size: 6rem;
+    }
+    .grid-item{
+        font-size: 2rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    /*SOBRE*/
+}
+

@@ -7,13 +7,13 @@
   
 ##
 ### Confira o Site: 
-Em breve...
+https://yasminhonda.github.io/MeuPortfolio/
   
 ##
 ### Features
 
 - [x] INTRO
-- [ ] SOBRE
+- [X] SOBRE
 - [X] PROJETOS
 - [X] CONTATOS
   

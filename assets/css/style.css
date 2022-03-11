@@ -123,6 +123,9 @@ header ul, li{
     width: 60%;
     text-align: justify;
 }
+.containerSobre div p:nth-child(2){
+    padding-top: 1.5rem;
+}
 
 /* CAROUSEL */
 .owl-carousel {

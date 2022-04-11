@@ -269,3 +269,8 @@ footer a i{
     padding-right: 0.5rem;
     font-size: 3rem;
 }
+
+
+.grid-container, .intro-nome, .imgPerfil, .sobreTexto {
+    visibility: hidden;
+}

@@ -29,3 +29,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "flex";
   line[slideIndex-1].className += " active";
 }
+
+window.sr = ScrollReveal({reset: true})
+sr.reveal('.grid-container, .imgPerfil', {
+  rotate: {x:0, y:0, z:0},
+  duration: 3000
+})
+sr.reveal('.intro-nome, .sobreTexto', {duration: 5000})
